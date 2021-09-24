@@ -1,0 +1,236 @@
+/* v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Global customs*/
+body {
+  background-color: #d4cea7;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 1.4;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+/*Header*/
+
+.header {
+  background-color: #f96115;
+  padding: 34px 0;
+  width: 100%;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 25px;
+  text-transform: capitalize;
+}
+
+/*Menu-card*/
+
+.card {
+  width: 25%;
+  height: 500px;
+  background-color: #005979;
+  box-shadow: 10px 10px 25px black;
+  padding: 24px 32px;
+  margin-left: 30px;
+}
+
+.card-menu {
+  margin: 30px 0;
+}
+.order {
+  color: white;
+  list-style-type: decimal;
+}
+
+.order li {
+  padding: 10px;
+}
+
+.un-order {
+  color: white;
+  list-style-type: disc;
+}
+
+.description {
+  padding: 50px;
+}
+.description-header {
+  font-size: 34px;
+  color: hsl(80, 4%, 16%);
+  padding: 18px 0;
+}
+
+.text {
+  font-size: 18px;
+  color: #545848;
+  padding-bottom: 24px;
+  padding-left: 40px;
+}
+
+/*Footer*/
+
+.footer-nav {
+  background-color: #252c22;
+  padding: 40px 0;
+}
+.footer-nav a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 24px;
+}
+
+.img :before {
+  content: "";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url("./black-tick.png ");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  top: 4px;
+  font-size: 20px;
+}
+
+.img li {
+  padding: 15px 0;
+  display: flex;
+  color: white;
+}
